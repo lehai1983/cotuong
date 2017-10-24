@@ -1,0 +1,8 @@
+[1 of 2] Compiling Main             ( /tmp/stack3929/haskeline-0.7.3.1/Setup.hs, /tmp/stack3929/haskeline-0.7.3.1/.stack-work/dist/x86_64-linux/Cabal-2.0.0.2/setup/Main.o )
+
+/tmp/stack3929/haskeline-0.7.3.1/Setup.hs:20:56: error:
+    • Data constructor not in scope: FlagName :: [Char] -> FlagName
+    • Perhaps you meant one of these:
+        variable ‘flagName’ (imported from Distribution.PackageDescription),
+        variable ‘mkFlagName’ (imported from Distribution.PackageDescription),
+        variable ‘unFlagName’ (imported from Distribution.PackageDescription)
